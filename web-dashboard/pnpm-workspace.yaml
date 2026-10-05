@@ -1,0 +1,3 @@
+allowBuilds:
+  # Native optional esbuild binary is installed; no lifecycle script is needed.
+  esbuild: false

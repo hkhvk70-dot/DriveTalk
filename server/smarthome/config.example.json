@@ -1,0 +1,23 @@
+{
+  "enabled": false,
+  "provider": "mijia",
+  "credential_dir": "/var/lib/drivetalk-smarthome/credentials",
+  "devices": {
+    "living_light": {
+      "name": "客厅灯", "kind": "light", "enabled": false,
+      "model": null, "did": null,
+      "capabilities": ["on", "brightness", "color_temperature"],
+      "properties": {
+        "on": {"siid": null, "piid": null},
+        "brightness": {"siid": null, "piid": null, "min": null, "max": null, "step": null},
+        "color_temperature": {"siid": null, "piid": null, "min": null, "max": null, "step": null}
+      }
+    },
+    "living_plug": {
+      "name": "客厅插座", "kind": "plug", "enabled": false,
+      "model": null, "did": null, "capabilities": ["on"],
+      "properties": {"on": {"siid": null, "piid": null}}
+    },
+    "home_camera": {"name": "家里摄像头", "kind": "camera", "enabled": false}
+  }
+}

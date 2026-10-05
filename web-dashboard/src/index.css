@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --color-cockpit: #171a20;
+}
+
+:root {
+  color-scheme: dark;
+  font-family: var(--font-sans);
+  background: #171a20;
+  color: #f4f4f5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body { margin: 0; min-width: 320px; }
+button { font: inherit; }
+
+.mobile-card { border-radius: 1.5rem; background: #20242c; }
+.mobile-button { display: flex; min-height: 44px; align-items: center; justify-content: center; gap: .5rem; border-radius: .85rem; background: #ffffff0d; padding: .7rem 1rem; font-size: .875rem; }
+.mobile-button:hover:not(:disabled) { background: #ffffff18; }
+.mobile-button:disabled { opacity: .35; cursor: not-allowed; }
+.mobile-button:focus-visible { outline: 2px solid #7dd3fc; outline-offset: 2px; }
+.mobile-app button, .mobile-app a, .mobile-app input { -webkit-tap-highlight-color: transparent; }
+.mobile-light { color-scheme: light; background: #e7eaee; color: #171a20; }
+.mobile-light .mobile-shell, .mobile-light .mobile-nav { background: #f7f8fa; }
+.mobile-light .mobile-card, .mobile-light .mobile-dialog { background: #eef0f4; color: #171a20; }
+.mobile-light [class*="text-neutral-100"], .mobile-light [class*="text-neutral-200"], .mobile-light [class*="text-neutral-300"], .mobile-light [class*="text-white"] { color: #242a34; }
+.mobile-light [class*="text-neutral-400"], .mobile-light [class*="text-neutral-500"] { color: #596475; }
+.mobile-light .mobile-button, .mobile-light [class*="bg-white/"] { background: #171a2008; }
+.mobile-light [class*="bg-white/[0.025]"] { background: #eef0f4; }

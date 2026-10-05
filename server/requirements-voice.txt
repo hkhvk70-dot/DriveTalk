@@ -1,0 +1,3 @@
+-r requirements.txt
+websockets>=15.0.1,<16
+msgpack>=1.1,<2

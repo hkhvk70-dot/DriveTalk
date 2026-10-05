@@ -1,0 +1,5 @@
+# Separate virtual environment; do not install into the existing production venv.
+mcp>=1.28,<2
+mijiaAPI>=4,<5
+qrcode>=8,<9
+cryptography>=44,<46
