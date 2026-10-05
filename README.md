@@ -1,5 +1,8 @@
 # Drive Talk：国行特斯拉接入grok和米家，实现语音控制
 
+> **第一次使用？先看 [完整接入教程：准备清单 → API 申请 → 配置 → 排错](API_SETUP.md)。**
+> 覆盖 Tesla Fleet API、DeepSeek、Grok、语音识别、TTS、高德地图与米家；按需开通，不必购买所有服务。
+
 自托管车辆、语音助手和智能家居控制台：React + TypeScript、Python、Android WebView。
 
 本项目独立于车辆、家居及 AI 服务供应商，并非其官方产品。默认使用合成 Mock 数据，不附带账号权限、私人配置或专有车模。原创代码使用 **GPL-3.0-or-later**；第三方依赖保留各自许可，见 [LICENSE](LICENSE) 和 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
