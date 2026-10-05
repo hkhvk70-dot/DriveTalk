@@ -1,4 +1,4 @@
-# DriveTalk
+# Drive Talk：国行特斯拉接入grok和米家，实现语音控制
 
 自托管车辆、语音助手和智能家居控制台：React + TypeScript、Python、Android WebView。
 
